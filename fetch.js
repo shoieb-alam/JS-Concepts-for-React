@@ -5,24 +5,22 @@ const student = {
     age: 32,
     movies: ['king khan', 'Dhakar Mastan']
 }
+console.log(student);
 const studentJSON = JSON.stringify(student);
-// console.log(student);
-// console.log(studentJSON);
-
+console.log(studentJSON);
 const studentObj = JSON.parse(studentJSON);
-// console.log(studentObj);
-
+console.log(studentObj);
 
 //2. fetch
 fetch('url')
     .then(res => res.json())
     .then(data => console.log(data));
 
-// keys, values
+//3. keys, values
 const keys = Object.keys(student);
 const values = Object.values(student);
 
-// for 
+//4. for 
 const numbers = [23, 54, 67, 87, 23, 78];
 numbers.forEach(num => console.log(num));
 numbers.map(num => num * 2);
@@ -31,7 +29,7 @@ numbers.map(num => num * 2);
 // loop on an object using for in 
 
 
-// add or remove from an array
+//5. add or remove from an array
 const products = [
     { name: 'laptop', price: 3200, brand: 'len', color: 'silver' },
     { name: 'phone', price: 7000, brand: 'HTC', color: 'golden' },
