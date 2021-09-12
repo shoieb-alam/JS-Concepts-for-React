@@ -8,6 +8,10 @@ const addToLocalStorage = () => {
     if (id && value) {
         localStorage.setItem(id, value);
     }
+    else {
+        const emptyMsg = document.getElementById('empty');
+        emptyMsg.innerText = "Enter both input";
+    }
     idInput.value = '';
     valueInput.value = '';
 }
