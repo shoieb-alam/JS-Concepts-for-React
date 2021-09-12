@@ -1,11 +1,8 @@
 // 1. array destructuring
-const numbers = [42, 65];
 // const x = numbers[0];
 // const y = numbers[1];
-
-// const [x, y] = [42, 65]
-
-
+const numbers = [42, 65];
+const [x, y] = [42, 65]
 const [x, y] = numbers;
 
 function boxify(num1, num2) {
@@ -22,9 +19,7 @@ const student = {
     age: 32,
     movies: ['king khan', 'Dhakar Mastan']
 }
-
 const [firstMovie, secondMovie] = student.movies;
-
 
 // object destructuring
 const { name, age } = { name: 'alu', age: 14 };
@@ -47,7 +42,6 @@ const employee = {
         }
     }
 }
-
 const { machine, ide } = employee;
-// const { weight, address } = employee.specification;
+const { weight, address } = employee.specification;
 const { brand } = employee?.specification?.watch;

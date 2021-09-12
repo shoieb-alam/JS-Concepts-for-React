@@ -1,8 +1,8 @@
 const numbers = [89, 35, 98, 12];
 const student = {
-    name: 'Salib Khan',
+    name: 'Abdullah',
     age: 32,
-    movies: ['king khan', 'Dhakar Mastan']
+    movies: ['The Message', 'Otoman Empire']
 };
 
 // 1. template string
@@ -24,14 +24,9 @@ const newNumbers = [...numbers];
 // create a new array from an older array and add an element
 const currentNumbers = [...numbers, 55];
 
-
 numbers.push(99);
 numbers.push(99);
 numbers.push(99);
-
-
-
-
 
 console.log(numbers);
 console.log(newNumbers);
