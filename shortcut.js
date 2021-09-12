@@ -1,5 +1,3 @@
-// 'almas', 5, true, {}, []
-// '', 0, false, null, undefined
 // check truthy
 let myVar = 5;
 // check any truthy 
